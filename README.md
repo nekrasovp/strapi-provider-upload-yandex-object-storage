@@ -1,0 +1,1 @@
+# strapi-provider-upload-yandex-object-storage
