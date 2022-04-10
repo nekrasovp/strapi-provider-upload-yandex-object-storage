@@ -1,0 +1,35 @@
+{
+    "name": "strapi-provider-upload-yandex-object-storage",
+    "version": "3.6.8",
+    "description": "Yandex Cloud Storage provider for Strapi upload: image resizing, thumbnails, WebP format",
+    "license": "MIT",
+    "homepage": "https://github.com/nekrasovp/strapi-provider-upload-yandex-object-storage",
+    "keywords": [
+        "upload",
+        "yandex",
+        "strapi"
+    ],
+    "directories": {
+        "lib": "./lib"
+    },
+    "main": "./lib",
+    "dependencies": {
+        "easy-yandex-s3": "^1.1.6",
+        "sharp": "^0.30.3"
+    },
+    "strapi": {
+        "isProvider": true
+    },
+    "author": {
+        "email": "nekrasovp@gmail.com",
+        "name": "nekrasovp"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:nekrasovp/strapi-provider-upload-yandex-object-storage.git"
+    },
+    "engines": {
+        "node": ">=10.16.0",
+        "npm": ">= 6.0.0"
+    }
+}
